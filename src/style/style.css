@@ -14,7 +14,7 @@ body {
 }
 .Contents img {
   width: 350px;
-  height: 197px;
+  height: 183px;
   display: flex;
 }
 .Contents p {
@@ -30,7 +30,7 @@ body {
   border: 2px solid rgb(200, 199, 199);
   border-radius: 5px;
   width: 700px;
-  height: 200px;
+  height: 185px;
   margin-bottom: 20px;
 }
 .Cards {
@@ -99,4 +99,55 @@ body {
   display: flex;
   flex-direction: column;
   gap: 20px;
+}
+.moreSee {
+  background-color: azure;
+  width: 700px;
+  height: 40px;
+  margin-left: 220px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.moreSee:hover {
+  background-color: rgb(122, 121, 120);
+}
+.rowNews {
+  display: flex;
+  gap: 20px;
+}
+.news img {
+  width: 300px;
+  height: 197px;
+}
+.containerFlex {
+  display: flex;
+  width: 990px;
+  margin: auto;
+}
+.containerFlex img {
+  width: 300px;
+}
+.titleLine {
+  border-top: dotted 2px black;
+  width: 800px;
+  margin: auto;
+}
+.containerTitle {
+  display: flex;
+  width: 990px;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+.containerTitle p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 25px;
+}
+.containerTitle .more {
+  font-size: 14px;
 }

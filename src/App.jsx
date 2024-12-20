@@ -2,6 +2,8 @@ import Card from "./components/Card";
 
 import Banner from "./components/Banner";
 
+import Container from "./components/Container";
+
 import Head from "./components/Head";
 import "./style/style.css";
 
@@ -38,6 +40,33 @@ const cardItem = [
   },
 ];
 
+const containerItem = [
+  {
+    image:
+      "https://dash-api.yld.mn/api/image/90d5d4f6-1b7e-464d-9247-1c137ee7365a",
+
+    desc: "Бизнес",
+    title: "Монложистикс групп экспортын тээвэрлэлтээ нэмэгдүүлнэ",
+    date: "С.Ангирмаа   12 сарын 18, 2024",
+  },
+  {
+    image:
+      "https://dash-api.yld.mn/api/image/90d5d4f6-1b7e-464d-9247-1c137ee7365a",
+
+    desc: "Бизнес",
+    title: "Монложистикс групп экспортын тээвэрлэлтээ нэмэгдүүлнэ",
+    date: "С.Ангирмаа   12 сарын 18, 2024",
+  },
+  {
+    image:
+      "https://dash-api.yld.mn/api/image/90d5d4f6-1b7e-464d-9247-1c137ee7365a",
+
+    desc: "Бизнес",
+    title: "Монложистикс групп экспортын тээвэрлэлтээ нэмэгдүүлнэ",
+    date: "С.Ангирмаа   12 сарын 18, 2024",
+  },
+];
+
 function App() {
   return (
     <div>
@@ -58,6 +87,26 @@ function App() {
           </div>
         </div>
         <Banner />
+      </div>
+      <div className="moreSee">
+        <p>Илүү үзэх</p>
+      </div>
+      <div className="containerTitle">
+        <p>Олон улс</p>
+        <div className="titleLine"></div>
+        <p className="more">Илүү үзэх</p>
+      </div>
+      <div className="containerFlex">
+        {containerItem.map((item) => {
+          return (
+            <Container
+              imageUrl={item.image}
+              desc={item.desc}
+              title={item.title}
+              date={item.date}
+            />
+          );
+        })}{" "}
       </div>
     </div>
   );
