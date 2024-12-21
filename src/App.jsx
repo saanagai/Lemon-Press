@@ -6,6 +6,7 @@ import Container from "./components/Container";
 
 import Head from "./components/Head";
 import "./style/style.css";
+import { Footer } from "./components/Footer";
 
 const cardItem = [
   {
@@ -51,11 +52,11 @@ const containerItem = [
   },
   {
     image:
-      "https://dash-api.yld.mn/api/image/90d5d4f6-1b7e-464d-9247-1c137ee7365a",
+      "https://dash-api.yld.mn/api/image/f486afba-6fea-4318-baef-27c0e2582ff4",
 
     desc: "Бизнес",
-    title: "Монложистикс групп экспортын тээвэрлэлтээ нэмэгдүүлнэ",
-    date: "С.Ангирмаа   12 сарын 18, 2024",
+    title: "Vans-н орлого 11 дэх сардаа дараалан унасаар",
+    date: "М.Хулан   12 сарын 18, 2024",
   },
   {
     image:
@@ -108,6 +109,7 @@ function App() {
           );
         })}{" "}
       </div>
+      <Footer />
     </div>
   );
 }

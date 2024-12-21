@@ -151,3 +151,50 @@ body {
 .containerTitle .more {
   font-size: 14px;
 }
+.Footer {
+  background-color: rgb(46, 40, 234);
+  width: 100%;
+  justify-content: center;
+  margin-top: 30px;
+}
+.socialikons {
+  width: 100%;
+  height: 96px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.socialikons div {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  svg {
+    width: 25px;
+    height: 25px;
+    fill: rgb(46, 40, 234);
+  }
+}
+.footerText {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  gap: 50px;
+}
+.footerText p {
+  color: white;
+  svg {
+    fill: white;
+  }
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
