@@ -60,11 +60,11 @@ const containerItem = [
   },
   {
     image:
-      "https://dash-api.yld.mn/api/image/90d5d4f6-1b7e-464d-9247-1c137ee7365a",
+      "https://dash-api.yld.mn/api/image/13aeb310-9ed2-478c-bf7a-a5f21ccc34c8",
 
     desc: "Бизнес",
-    title: "Монложистикс групп экспортын тээвэрлэлтээ нэмэгдүүлнэ",
-    date: "С.Ангирмаа   12 сарын 18, 2024",
+    title: "Apple Pay 10 жилийн ойгоороо Монголд нэвтэрлээ",
+    date: "С.Ангирмаа   12 сарын 11, 2024",
   },
 ];
 
@@ -89,13 +89,15 @@ function App() {
         </div>
         <Banner />
       </div>
-      <div className="moreSee">
-        <p>Илүү үзэх</p>
+      <div className="more-width">
+        <div className="moreSee">
+          <p>Илүү үзэх</p>
+        </div>
       </div>
       <div className="containerTitle">
         <p>Олон улс</p>
         <div className="titleLine"></div>
-        <p className="more">Илүү үзэх</p>
+        <p className="">Илүү үзэх</p>
       </div>
       <div className="containerFlex">
         {containerItem.map((item) => {

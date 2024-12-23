@@ -32,11 +32,13 @@ body {
   width: 700px;
   height: 185px;
   margin-bottom: 20px;
+  position: relative;
 }
 .Cards {
   display: flex;
   margin: auto;
-  width: 990px;
+  width: 1000px;
+  overflow: hidden;
 }
 
 .Head-Head {
@@ -104,12 +106,19 @@ body {
   background-color: azure;
   width: 700px;
   height: 40px;
-  margin-left: 220px;
+
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  position: absolute;
+  margin-top: -30px;
+  transition: all 1s linear;
+}
+.more-width {
+  width: 1000px;
+  margin: auto;
 }
 .moreSee:hover {
   background-color: rgb(122, 121, 120);
@@ -117,6 +126,7 @@ body {
 .rowNews {
   display: flex;
   gap: 20px;
+  width: 300px;
 }
 .news img {
   width: 300px;
@@ -124,11 +134,15 @@ body {
 }
 .containerFlex {
   display: flex;
-  width: 990px;
+  width: 1000px;
+  justify-content: space-between;
   margin: auto;
 }
 .containerFlex img {
   width: 300px;
+  border-radius: 5px;
+  display: flex;
+  gap: 20px;
 }
 .titleLine {
   border-top: dotted 2px black;
@@ -137,7 +151,7 @@ body {
 }
 .containerTitle {
   display: flex;
-  width: 990px;
+  width: 1000px;
   margin: auto;
   justify-content: center;
   align-items: center;
@@ -197,4 +211,13 @@ body {
   display: flex;
   flex-direction: column;
   gap: 5px;
+}
+.left img {
+  width: 150px;
+  height: 40px;
+  fill: white;
+}
+.left p {
+  display: flex;
+  flex-direction: column-reverse;
 }
