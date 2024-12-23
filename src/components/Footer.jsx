@@ -30,7 +30,7 @@ export const Footer = (props) => {
       </div>
       <div className="footerText">
         <div className="left">
-          <img src="./lemonpress.svg" alt="" />
+          <img src="./lemonpress-white.svg" alt="" />
           <p>
             Бид санхүү, хөрөнгө оруулалтын мэдээ мэдээллийн ажлын өдрүүдэд 7:00
             цагт таны имэйл хаягт хүрнэх болно.

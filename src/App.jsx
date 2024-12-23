@@ -5,7 +5,10 @@ import Banner from "./components/Banner";
 import Container from "./components/Container";
 
 import Head from "./components/Head";
-import "./style/style.css";
+
+import "./style/card.css";
+import "./style/footer.css";
+import "./style/container.css";
 import { Footer } from "./components/Footer";
 
 const cardItem = [
@@ -95,6 +98,57 @@ function App() {
         </div>
       </div>
       <div className="containerTitle">
+        <p>Бизнес</p>
+        <div className="titleLine"></div>
+        <p className="">Илүү үзэх</p>
+      </div>
+      <div className="containerFlex">
+        {containerItem.map((item) => {
+          return (
+            <Container
+              imageUrl={item.image}
+              desc={item.desc}
+              title={item.title}
+              date={item.date}
+            />
+          );
+        })}{" "}
+      </div>
+      <div className="containerTitle">
+        <p>Хэвлэлийн мэдээ</p>
+        <div className="titleLine"></div>
+        <p className="">Илүү үзэх</p>
+      </div>
+      <div className="containerFlex">
+        {containerItem.map((item) => {
+          return (
+            <Container
+              imageUrl={item.image}
+              desc={item.desc}
+              title={item.title}
+              date={item.date}
+            />
+          );
+        })}{" "}
+      </div>
+      <div className="containerTitle">
+        <p>Эдийн засаг</p>
+        <div className="titleLine"></div>
+        <p className="">Илүү үзэх</p>
+      </div>
+      <div className="containerFlex">
+        {containerItem.map((item) => {
+          return (
+            <Container
+              imageUrl={item.image}
+              desc={item.desc}
+              title={item.title}
+              date={item.date}
+            />
+          );
+        })}{" "}
+      </div>
+      <div className="containerTitle">
         <p>Олон улс</p>
         <div className="titleLine"></div>
         <p className="">Илүү үзэх</p>
@@ -111,6 +165,24 @@ function App() {
           );
         })}{" "}
       </div>
+      <div className="containerTitle">
+        <p>Сурталчилгаа</p>
+        <div className="titleLine"></div>
+        <p className="">Илүү үзэх</p>
+      </div>
+      <div className="containerFlex">
+        {containerItem.map((item) => {
+          return (
+            <Container
+              imageUrl={item.image}
+              desc={item.desc}
+              title={item.title}
+              date={item.date}
+            />
+          );
+        })}{" "}
+      </div>
+
       <Footer />
     </div>
   );

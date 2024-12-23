@@ -4,9 +4,9 @@ const Container = (props) => {
       <div classNamr="news">
         <img src={props.imageUrl} />
         <div className="news-text">
-          <p>{props.desc}</p>
+          <p className="text-color1">{props.desc}</p>
           <h2>{props.title}</h2>
-          <p>{props.date}</p>
+          <p className="text-color2">{props.date}</p>
         </div>
       </div>
     </div>

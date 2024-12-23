@@ -1,0 +1,34 @@
+.containerFlex {
+  display: flex;
+  width: 1000px;
+  justify-content: space-between;
+  margin: auto;
+}
+.containerFlex img {
+  width: 300px;
+  border-radius: 5px;
+  display: flex;
+  gap: 10px;
+}
+.titleLine {
+  border-top: dotted 2px black;
+  width: 700px;
+  margin: auto;
+}
+.containerTitle {
+  display: flex;
+  width: 990px;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+.containerTitle p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 20px;
+  width: 250px;
+}
+.containerTitle .more {
+  font-size: 13px;
+}
