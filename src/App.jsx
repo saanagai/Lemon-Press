@@ -6,6 +6,7 @@ import Container from "./components/Container";
 
 import Head from "./components/Head";
 
+import "./style/head.css";
 import "./style/card.css";
 import "./style/footer.css";
 import "./style/container.css";

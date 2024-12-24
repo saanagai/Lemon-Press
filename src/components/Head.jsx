@@ -20,6 +20,12 @@ const Head = (props) => {
       <div className="head-img">
         <img src="./boostme.jpeg" alt="" />
       </div>
+      <div className="lemonade">
+        <button>LEMONADE</button>
+        <h3>
+          Х.Энхжин: Тийрэлтэт онгоцны Монголын анхны эмэгтэй нисгэгч | S4:E5
+        </h3>
+      </div>
     </div>
   );
 };
