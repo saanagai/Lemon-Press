@@ -8,6 +8,8 @@
   justify-content: space-between;
 
   align-items: center;
+  font-weight: 700;
+  font-size: 10px;
 }
 .Head {
 }
@@ -22,10 +24,9 @@
   margin-top: 30px;
 }
 .head-Lift p {
-  font-size: 16px;
-  font-style: normal;
-  font-family: Georgia;
-  padding-bottom: 5px;
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 .head-Right {
   display: flex;
@@ -48,29 +49,38 @@
   margin-left: 10px;
 }
 .head-img img {
-  width: 100%;
+  width: 1046px;
   height: 125px;
   margin-left: 30px;
   margin-top: 30px;
 }
 .lemonade {
   display: flex;
+  align-items: center;
   gap: 30px;
-  width: 100%;
+  width: 1046px;
   height: 36px;
   margin-left: 30px;
   margin-top: 20px;
   margin-bottom: 20px;
+  border-radius: 5px;
   background-color: rgb(224, 227, 226);
+  font-weight: 400;
 }
 .lemonade button {
   background-color: #fbda04;
   width: 85px;
   height: 35px;
   border-radius: 5px;
-  border: 1px solid none;
+  border: none;
+  font-weight: 600;
+  font-size: 8px;
+  text-transform: uppercase;
 }
-.LEMONADE h3 {
+.lemonade h3 {
   width: 835px;
   height: 42px;
+  font-weight: 700;
+  font-size: 12px;
+  margin-top: 25px;
 }
